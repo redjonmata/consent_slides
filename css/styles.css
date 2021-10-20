@@ -87,23 +87,23 @@ h1 {
 
 /*Consent page*/
 .consent-page {
-    width: 1100px;
+    width: 1135px;
     display: flex;
+    margin-left: 50px;
 }
 .consent-page .half {
-    width: 50%;
+    width: 44%;
     height: 700px;
-    padding-left: 50px;
 }
 .consent-page .left {
     float: left;
     text-align: center;
     border-right: 1px solid #154625;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .consent-page h2 {
     font-size: 45px;
-    line-height: 50px;
+    line-height: 45px;
     text-align: left;
 }
 .consent-page h3 {
@@ -117,8 +117,8 @@ h1 {
     font-family: ICA, sans-serif;
 }
 .consent-page .colored-box {
-    margin-top: 50px;
-    width: 450px;
+    margin-top: 55px;
+    width: 446px;
     height: 180px;
     border-radius: 10px;
     background-color: #abd4aa;
@@ -139,21 +139,23 @@ h1 {
     padding-left: 30px
 }
 .consent-page .right {
-    padding-top: 15px;
+    padding-top: 17px;
     float: right;
+    padding-right: 40px;
+    padding-left: 30px;
 }
 .consent-page .right h2 {
     font-size: 23px;
 }
 .consent-page .right h3 {
-    margin-top: -30px;
+    margin-top: -27px;
     font-size: 18px;
     width: 77%;
 }
 .consent-page .right button {
     font-size: 20px;
     background-color: #aad3a9;
-    padding: 10px 15px 10px 15px;
+    padding: 5px 15px 10px 15px;
     border-radius: 23px;
     font-family: ICA, sans-serif;
     border: 0;
@@ -169,7 +171,7 @@ h1 {
     padding-top: 20px;
 }
 .consent-page .confirmation.first {
-    margin-top: -25px;
+    margin-top: -21px;
 }
 .consent-page .confirmation.second {
     margin-top: -25px;
@@ -193,14 +195,18 @@ h1 {
 /*Consent page part 2*/
 .consent-page.part2 .left {
     padding-top: 60px;
-    padding-right: 35px;
+    padding-right: 3px;
 }
 .consent-page.part2 .right {
-    padding-top: 30px;
+    padding-top: 39px;
 }
 .consent-page.part2 .left h3 {
     margin-bottom: 45px !important;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: 500;
+}
+.consent-page.part2 .scroll .no-title h3 {
+    width: 93%;
 }
 .consent-page.part2 .scroll {
     padding-top: 20px;
@@ -208,7 +214,8 @@ h1 {
     height: 540px;
     overflow-x: hidden;
     overflow-y: scroll;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    margin-right: 14px;
 }
 .consent-page.part2 ::-webkit-scrollbar {
     width: 10px;
@@ -219,10 +226,14 @@ h1 {
 .consent-page.part2 ::-webkit-scrollbar-thumb {
     background: #144025;
 }
+.consent-page.part2 .arrows {
+    margin-left: -4px;
+}
 .consent-page.part2 .advance-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 15px;
 }
 .consent-page.part2 .advance-div img {
     cursor: pointer;
@@ -231,10 +242,10 @@ h1 {
     width: unset;
     margin-left: 20px;
     color: white !important;
-    font-size: 30px;
+    font-size: 28px;
     background-color: #144726;
     border-radius: 30px;
-    padding: 5px 35px 5px 35px;
+    padding: 5px 35px 5px 38px;
     border: 0;
     font-family: ICA, sans-serif;
     height: 65px;
